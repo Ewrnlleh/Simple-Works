@@ -1,0 +1,9 @@
+
+
+CREATE TABLE Satış (
+    Satno int NOT NULL PRIMARY KEY,
+    Mno int FOREIGN KEY REFERENCES Müşteri(Mno),
+    Aracno int FOREIGN KEY REFERENCES Araç(Aracno),,
+    Sat_tarih datetime,
+    Sfiyat int,
+);

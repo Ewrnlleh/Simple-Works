@@ -1,0 +1,11 @@
+1.Başla
+2.Sınava giren 5 öğrencinin not toplamını al.	
+3.Ortalamayı bulmak için not toplamını öğrenci sayısına böl.
+4.İlk öğrenciyi seç ve sıra numarasını bir olarak belirle.
+5.Öğrencinin notu ortalamanın üzerinde veya eşit mi?
+        evetse dersten geçti yaz
+        hayırsa dersten kaldı yaz
+6.Öğrencinin sıra numarası 5'ten büyükmü
+	evetse devam et
+	hayırsa sıra numarasını bir arttır, sonraki öğrenciye geç ve 5.adıma dön.
+7.Bitir

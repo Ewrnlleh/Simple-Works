@@ -1,0 +1,28 @@
+  double ales,yabancidil,diplomanot,ağırlıkort;
+  
+  Console.Write("Ales puanınızı giriniz: ");
+  ales = Convert.ToDouble(Console.ReadLine());
+  if(!( ales >= 50 && ales <= 100)) {
+  Console.WriteLine("Lütfen Ales puanı için geçerli bir değer giriniz! ");
+  return;
+  }
+  
+  Console.Write("Yabancı Dil puanınızı giriniz: ");
+  yabancidil = Convert.ToDouble(Console.ReadLine());
+  if(!(yabancidil >=0 && yabancidil <=100)) {
+  Console.WriteLine("Lütfen Yabancı Dil puanı için geçerli bir değer giriniz! ");
+  return;
+  }
+  
+  Console.Write("Lisans Diploma notunuzu giriniz: ");
+  diplomanot = Convert.ToDouble(Console.ReadLine());
+  if(!(diplomanot >= 0 && diplomanot <=4)) {
+  Console.WriteLine("Lütfen Lisans Diploma notu için geçerli bir değer giriniz! ");
+  return;
+  }
+  
+  ağırlıkort = (ales*55/100) + (yabancidil*25/100) + (diplomanot*25*20/100);
+  Console.WriteLine("Ales puanı: "+ales);
+  Console.WriteLine("Yabancı Dil puanı: "+yabancidil);
+  Console.WriteLine("Lisans Diploma notu: "+diplomanot);
+  Console.WriteLine("Ağırlıklı ortalama: "+ağırlıkort);

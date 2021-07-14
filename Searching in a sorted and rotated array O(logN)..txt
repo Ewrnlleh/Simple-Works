@@ -1,0 +1,37 @@
+function search( arr[], key, low, high)
+
+        mid = (low + high) / 2
+
+        // key mevcut değil
+        if(low > high)
+                return -1
+
+        // key bulundu
+        if(arr[mid] == key)
+                return mid
+
+        // sol yarısı sıralanırsa.
+        if(arr[low] <= arr[mid])
+
+                // anahtar sol yarıda mevcutsa.
+                if (arr[low] <= key && arr[mid] >= key) 
+                        return search(arr,key,low,mid-1)
+
+                // anahtar sol yarıda yoksa sağ yarısında ara.
+                else                 
+                        return search(arr,key,mid+1,high)
+                end-if
+
+        // sağ taraf sıralanırsa.
+        else    
+                // anahtar sağ yarıda mevcutsa.
+                if(arr[mid] <= key && arr[high] >= key) 
+                        return search(arr,key,mid+1,high)
+
+                // anahtar sağ yarıda yoksa sol yarıda arama yapın.
+                else
+                        return search(arr,key,low,mid-1)
+                end-if
+        end-if  
+
+end-function

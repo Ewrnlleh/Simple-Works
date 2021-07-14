@@ -1,0 +1,28 @@
+  O(n)
+
+long power(int a, int n)
+    {
+        if(n==0)
+            return 1;
+        else
+            return a * power(a, n-1)
+    }
+
+
+
+O(lg(n))
+
+/** divide & Conquer function to compute a^n.
+     * n is a positive integer */
+    long power(int a, int n)
+    {
+        if(n==0)
+            return 0;
+        // putting a check to avoid unnecessary recursive calls
+        if(a == 0)
+            return 0;
+        if(n%2 == 0) // b is even
+            return power(a*a, b/2);
+        else
+            return a * power(a*a, b/2);
+    }

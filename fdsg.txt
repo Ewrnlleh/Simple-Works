@@ -1,0 +1,24 @@
+CREATE TABLE Alım (
+    Alimno int NOT NULL PRIMARY KEY,
+    Mno int FOREIGN KEY REFERENCES Müşteri(Mno),
+    Aracno int FOREIGN KEY REFERENCES Araç(Aracno),,
+    Alim_tarih datetime,
+    Afiyat int,
+);
+
+CREATE TABLE Müşteri (
+    Mno int NOT NULL,
+    Madi varchar(25),
+    Msoyadi varchar(25),
+    Madres varchar(255),
+    Mtelefon int(11),
+);
+
+
+CREATE TABLE Araç (
+    Araçno int NOT NULL,
+    Model int(4),
+    Marka varchar(255),
+    Plaka varchar(20),
+    Fiyat int,
+);

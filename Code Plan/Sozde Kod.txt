@@ -1,0 +1,11 @@
+1.Başla
+2.Not toplamını al
+3.Not toplamı/5
+4.Öğrenci Sıra Numarası=1 
+5.Öğrencinin Notu >= Ortalama
+	Evet dersten geçti yaz
+	Hayır dersten kaldı yaz
+6.Öğrencinin Sıra Numarası > 5
+	Evet geç
+	Hayır Sıra Numarası++ Sonraki Öğrenci 5.adıma git
+7.Bitir

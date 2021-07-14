@@ -1,0 +1,5 @@
+5 öğrenciden oluşan bir sınıfta, sınavdan sınıf not ortalamasının
+üzerinde veya ortalamaya eşit not alanlar dersi geçer, diğer
+öğrenciler dersten kalır. Her öğrencinin dersten kalıp geçme
+durumunu ekranda gösteren bir algoritma tasarlayınız. ve üç
+algoritma gösterim yöntemi ile gösteriniz.
