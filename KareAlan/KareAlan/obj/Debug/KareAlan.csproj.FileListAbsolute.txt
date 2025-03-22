@@ -1,0 +1,14 @@
+C:\Users\Tarık\source\repos\KareAlan\KareAlan\bin\Debug\KareAlan.exe.config
+C:\Users\Tarık\source\repos\KareAlan\KareAlan\bin\Debug\KareAlan.exe
+C:\Users\Tarık\source\repos\KareAlan\KareAlan\bin\Debug\KareAlan.pdb
+C:\Users\Tarık\source\repos\KareAlan\KareAlan\obj\Debug\KareAlan.csprojAssemblyReference.cache
+C:\Users\Tarık\source\repos\KareAlan\KareAlan\obj\Debug\KareAlan.csproj.CoreCompileInputs.cache
+C:\Users\Tarık\source\repos\KareAlan\KareAlan\obj\Debug\KareAlan.exe
+C:\Users\Tarık\source\repos\KareAlan\KareAlan\obj\Debug\KareAlan.pdb
+E:\Career\Projects\C#\KareAlan\KareAlan\bin\Debug\KareAlan.exe.config
+E:\Career\Projects\C#\KareAlan\KareAlan\bin\Debug\KareAlan.exe
+E:\Career\Projects\C#\KareAlan\KareAlan\bin\Debug\KareAlan.pdb
+E:\Career\Projects\C#\KareAlan\KareAlan\obj\Debug\KareAlan.csproj.AssemblyReference.cache
+E:\Career\Projects\C#\KareAlan\KareAlan\obj\Debug\KareAlan.csproj.CoreCompileInputs.cache
+E:\Career\Projects\C#\KareAlan\KareAlan\obj\Debug\KareAlan.exe
+E:\Career\Projects\C#\KareAlan\KareAlan\obj\Debug\KareAlan.pdb
