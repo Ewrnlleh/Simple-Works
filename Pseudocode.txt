@@ -1,0 +1,36 @@
+
+-Başla
+-Toplam Atılan ve Yenilen İç ve Dış Gol Sayı Değerleri Tanımla.
+-Toplam iç ve dış puan tanımla
+-Takım oluştur
+-Program kısmında takım oluştur.
+-Takım isim atama fonksiyonu çağır.
+	-Takımları giriniz.
+	-Takımlara isim atama.
+	-Takım gol ve puanları ilk olarak 0 atama.
+-Gol Bilgi fonksiyonu çağır
+	-Bütün takımların gol bilgilerini sırayla gir
+	-Toplam takım sayısı kadar atama yap
+	-Attığı ve yediği gol sayısını kullanıcı girişi alma.
+	-Yeni Gol Sayılarını arttırma.
+	-iç ve dış puanlarını gol sayılarına göre belirleme.(Burada macSonucuPuani fonksiyonu kullan.)
+		-attığı yediğinden büyükse 3 döndür
+		-yediği attığından büyükse 0 döndür.
+		-diğer türlü 1 puan dödür.
+-while seçime göre menu getir, menuyuGoster fonksiyonun çağır.
+	-1. şıkta puantablosu göster fonksiyon döndür.
+		-Toplam takım sayısı kadar attığı,yediği,averaj,puan bilgilerini çek
+		-Takım puanlardan iç ve dış puanlara göre puan hesapla.
+		-Atılan , yenilen gol sayısı hesapla ekrana yazdır.
+	-2. şıkta icsahapuantablosunugöster fonksiyon döndür.
+		-puana toplam iç puan değerini ata
+		-atilan gol sayısı = iç gol sayısı
+		-yenilen gol sayısı = yenilen iç gol sayısı
+		-yazdır.
+	-3. şıkta deplasmanpuantablosunugöster fonksiyon döndür.
+		-puana toplam dış puan değerini ata
+		-atilan gol sayısı = dış gol sayısı
+		-yenilen gol sayısı = yenilen dış gol sayısı
+		-yazdır.
+	-Çıkış
+-Bitir.
